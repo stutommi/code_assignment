@@ -1,11 +1,11 @@
-CODE ASSIGNMENT - simple api for counting sums and checking for primenumbers
+CODE ASSIGNMENT - simple api for counting sums and checking for prime numbers
 
 To run it:
-- 1. clone it
-- 2. cd into the cloned directory
-- 3. either execute "yarn install && yarn start" or "npm install && npm start" depending on your preferences
-- 4. visit http://localhost:8000 from the browser to see it
-- 5. (optionally) run tests by executing command "npm test"
+1. clone it
+2. cd into the cloned directory
+3. either execute "yarn install && yarn start" or "npm install && npm start" depending on your preferences
+4. visit http://localhost:8000 from the browser to see it
+5. (optionally) run tests by executing command "npm test"
 
 Some explanation:
 
