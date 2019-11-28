@@ -21,3 +21,4 @@ BACKEND
 CONFESSIONS
   1. I decided to leave out comments, hoping the code explains itself well enough.
   2. This was the first time for me making requests with jquery.
+  
