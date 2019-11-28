@@ -30,7 +30,7 @@ $(document).ready(() => {
 
     $.ajax({
       type: 'GET',
-      url: `/api/isprime/${input}`,
+      url: `/api/is-prime/${input}`,
       error: xhr => $('#prime-result').html(`<span>${xhr.responseJSON.error}</span>`),
       success: res => $('#prime-result').html(`<span>The number above is \
       ${res.isPrime ? '' : 'not'} a prime number!</span>`)
