@@ -5,7 +5,7 @@ const primeRouter = require('./controllers/prime')
 
 const app = express()
 
-process.env.NODE_ENV !== 'test' && app.use(morgan('tiny'))
+process.env.NODE_ENV === 'development' && app.use(morgan('tiny'))
 app.use(express.static('public'))
 app.use('/api/sum', sumRouter)
 app.use('/api/isPrime', primeRouter)
